@@ -4,6 +4,8 @@
 
 
 ## App name: FoodMe
+<img src="app-screenshots/foodme-homepage.png"  height="300">
+
 **Architecture:** FoodMe is a monolithic application. Built with angular on the frontend and Node on the backend.
 
 **Description:** FoodMe is designed to provide a familiar online food ordering experience in the browser. As a monolith, it is very simple for the learner to spin up locally or in a browser-based IDE for free hosting.
