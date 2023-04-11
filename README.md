@@ -15,7 +15,21 @@
 | FoodMe for APM | This version has APM instrumentation code found in several files and is documented in README.md | [GitHub Repo](https://github.com/Bijesse/nru-foodme-app), [Glitch environment](https://glitch.com/edit/#!/remix/foodme-fy23) |
 | FoodMe for OTel | This version has OTel instrumentation code found in several files and is documented in README.md  | [GitHub Repo](https://github.com/Bijesse/foodme-otel), [Glitch environment](https://glitch.com/edit/#!/remix/foodme-otel)|
 
-## App name: name
+## App name: Relicstaurants
+<img src="app-screenshots/relicstaurants.png"  height="300">
+
+**Architecture:** This app is build with React. Some versions of the app are a monolith while others are built with microservice architecture 
+
+**Description:** This app is similar to FoodMe in that is a food ordering service that lists the same restaurants. It differs in the way it is built so that different tools/features can be used.
+
+| App version   | Description | Link(s) | 
+| ------------- | ----------- | --------| 
+| Monolith Relicaturants | A simple version of the applicaiton that includes instrumentation code | [Monolith Relicstaurants](https://github.com/newrelic-experimental/relicstaurants/tree/instrumented-version) |
+| Mobile Relicaturants | Designed to be a React Native mobile application | [RelicsaurantReact](https://github.com/newrelic-experimental/relicstaurantReact) |
+| Microservice Relicaturants | Includes 3 microservices and a frontend. Instructions for instrumenting and deploying in README.md | [Local deploy](https://github.com/newrelic-experimental/Relicstaurants-Platzi) |
+| Microservice Relicaturants built for Docker | Includes 3 microservices and a frontend. Instructions for instrumenting and deploying with Docker in README.md | [Docker build](https://github.com/Bijesse/Relicstaurants-Docker) |
+
+## App name: 
 <img src="app-screenshots/"  height="300">
 
 **Architecture:** This app is build with...
