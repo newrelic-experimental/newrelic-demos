@@ -14,3 +14,14 @@
 | ----------- | ----------- | -------------| 
 | FoodMe for APM | This version has APM instrumentation code found in several files and is documented in README.md | [GitHub Repo](https://github.com/Bijesse/nru-foodme-app), [Glitch environment](https://glitch.com/edit/#!/remix/foodme-fy23) |
 | FoodMe for OTel | This version has OTel instrumentation code found in several files and is documented in README.md  | [GitHub Repo](https://github.com/Bijesse/foodme-otel), [Glitch environment](https://glitch.com/edit/#!/remix/foodme-otel)|
+
+## App name: name
+<img src="app-screenshots/"  height="300">
+
+**Architecture:** This app is build with...
+
+**Description:** A brief description of this app...
+
+| App version   | Description | Link(s) | 
+| ------------- | ----------- | --------| 
+| App version 1 |  |  |
