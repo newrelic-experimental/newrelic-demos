@@ -15,19 +15,29 @@
 | FoodMe for APM | This version has APM instrumentation code found in several files and is documented in README.md | [GitHub Repo](https://github.com/Bijesse/nru-foodme-app), [Glitch environment](https://glitch.com/edit/#!/remix/foodme-fy23) |
 | FoodMe for OTel | This version has OTel instrumentation code found in several files and is documented in README.md  | [GitHub Repo](https://github.com/Bijesse/foodme-otel), [Glitch environment](https://glitch.com/edit/#!/remix/foodme-otel)|
 
-## App name: Relicstaurants
-<img src="app-screenshots/relicstaurants.png"  height="300">
+## App name: Voting app
+<img src="app-screenshots/voting_app.png"  height="300">
 
-**Architecture:** This app is build with React. Some versions of the app are a monolith while others are built with microservice architecture 
+**Architecture:** This microservice application includes 5 services across various languages and databases. More info can be found on the README file of each repo linked below.
 
-**Description:** This app is similar to FoodMe in that is a food ordering service that lists the same restaurants. It differs in the way it is built so that different tools/features can be used.
+**Description:** This app has been adapted from its original form in the [Docker Samples Repository](https://github.com/dockersamples/example-voting-app). It provides a simple UI to have users select one of two options and have their responses viewed on a secondary page. 
 
 | App version   | Description | Link(s) | 
 | ------------- | ----------- | --------| 
-| Monolith Relicaturants | A simple version of the applicaiton that includes instrumentation code | [Monolith Relicstaurants](https://github.com/newrelic-experimental/relicstaurants/tree/instrumented-version) |
-| Mobile Relicaturants | Designed to be a React Native mobile application | [RelicsaurantReact](https://github.com/newrelic-experimental/relicstaurantReact) |
-| Microservice Relicaturants | Includes 3 microservices and a frontend. Instructions for instrumenting and deploying in README.md | [Local deploy](https://github.com/newrelic-experimental/Relicstaurants-Platzi) |
-| Microservice Relicaturants built for Docker | Includes 3 microservices and a frontend. Instructions for instrumenting and deploying with Docker in README.md | [Docker build](https://github.com/Bijesse/Relicstaurants-Docker) |
+| Voting App unistrumented | A version of the application that does not include New Relic instrumentation code. Instructions for a local deploy, APM, and Infrastructure instrumentation can be found in the README file | [Voting App unistrumented](https://github.com/mchavez-newrelic/example-voting-app) |
+| Voting App instrumented| A version of the application that includes New Relic APM instrumentation code scross 3 services. Instructions for a local deploy, or Codespaces deploy can be found in the README file  | [Local deploy](https://github.com/Bijesse/example-voting-app-fully-instrumented), [Codespaces deploy](https://github.com/Bijesse/example-voting-app-fully-instrumented/tree/codespace-instructions) |
+
+## App name: Online Boutique (formely Hipster Shop)
+<img src="app-screenshots/online-boutique-frontend-1.png"  height="300">
+
+**Architecture:** This microservice application includes 11 services across various languages and databases. More info can be found on the README file of each repo linked below.
+
+**Description:** This app has been adapted from its original form created by the GCP team [Repository](https://github.com/GoogleCloudPlatform/microservices-demo). It is an exmaple online retailer. 
+
+| App version   | Description | Link(s) | 
+| ------------- | ----------- | --------| 
+| Online Boutique OpenTelemetry instrumented | A version of the application that has been instrumented with OpenTelemtry across 10 of the services and APM for one service| [OpenTelemetry instrumented](https://github.com/newrelic-experimental/otel-workshop) |
+
 
 ## App name: 
 <img src="app-screenshots/"  height="300">
